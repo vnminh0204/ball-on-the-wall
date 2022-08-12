@@ -13,7 +13,10 @@
 ---
 <p>
 Project Demo: https://youtu.be/-gIV11DVpts
+Ball on the wall is an interactive game using Raspberry Pi and pygame made by team 30 for the Computer Architecture and Organization module of University of Twente
+In the game, players can throw balls to hit objects on the screen to score.
 
+Technologies used: openCV, pygame, Python, SonarQube and Raspberry Pi.
 </p>
 <br/>
 
