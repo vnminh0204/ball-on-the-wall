@@ -1,0 +1,17 @@
+DROP SCHEMA IF EXISTS mod5_project;
+CREATE SCHEMA mod5_project;
+
+CREATE TABLE "user" (
+  username text PRIMARY KEY,
+  password_hash text,
+  num_fail int,
+  is_admin BOOLEAN
+);
+
+CREATE TABLE "score" (
+  username text,
+  score int,
+  date timestamp,
+  PRIMARY KEY(username, date),
+  FOREIGN KEY (username) REFERENCES "user" (username)
+);
